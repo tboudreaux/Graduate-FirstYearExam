@@ -25,15 +25,19 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				dependencies: [
+					// plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
+					{src: 'node_modules/revealjs-animated/dist/revealjs-animated.js', async: true}
+				],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
 			});
 		</script>
 	</body>
