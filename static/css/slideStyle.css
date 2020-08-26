@@ -28,3 +28,14 @@
         padding: 2% 0 2% 3%;
         /* &:first-of-type { padding-left: 0; } */
 }
+
+.spanEmph {
+	color: #27799c;
+}
+
+.blockEmph{
+	 border-radius: 10px;
+	 text-align: center;
+	 font-style: italic;
+	 background-color: #dde0d2;
+}
