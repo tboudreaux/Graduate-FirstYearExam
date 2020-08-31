@@ -39,3 +39,14 @@
 	 font-style: italic;
 	 background-color: #dde0d2;
 }
+
+.listParRight{
+	display: list-item;
+	direction: rtl;
+	text-align:right;
+}
+
+.listParLeft{
+	display: list-item;
+}
+
