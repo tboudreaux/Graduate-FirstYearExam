@@ -17,6 +17,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+				<!-- Include content from another HTML file, dependent on web server supporting SSI --!>
 				<!--#include virtual="static/html/slides.html"-->
 			</div>
 		</div>
@@ -27,17 +28,12 @@
 		<script src="plugin/highlight/highlight.js"></script>
 		<script src="plugin/math/math.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-				// Learn about plugins: https://revealjs.com/plugins/
 				dependencies: [
-					// plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
 					{src: 'node_modules/revealjs-animated/dist/revealjs-animated.js', async: true}
 				],
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
 			});
 		</script>
 	</body>
