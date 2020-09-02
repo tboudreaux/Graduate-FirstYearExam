@@ -50,3 +50,15 @@
 	display: list-item;
 }
 
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+
+.credit{
+	font-size: 10px;
+	color: grey;
+}
