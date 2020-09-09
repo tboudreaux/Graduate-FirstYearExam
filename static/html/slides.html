@@ -63,6 +63,9 @@
 				<span class="fragment fade-in-then-out" data-fragment-index="2" style="position: absolute; top: 0; left: 0;">
 					<img src="static/imgs/NonThermalEmission.png" alt="Non Thermal Emission" width="400" height="400">
 				</span>
+				<span class="fragment fade-in-then-out" data-fragment-index="3" style="position: absolute; top: 0; left: 0;">
+					<img src="static/imgs/ZeemanBroadening.png" alt="Non Thermal Emission" width="400" height="400">
+				</span>
 			</div>
 		</div>
 		<div class="footer">
@@ -115,9 +118,23 @@
 		</div>
 		<p>The Tachocline</p>
 	</section>
-	<section>
-		<div class="slideTitle">The Tachocline aranges these (small, randomly oriented) fields to larger scales</div>
-		<p><small>The \( \alpha \Omega \) Dynamo</small></p>
+	<section data-auto-animate>
+		<div class="slideTitle" data-id="TitleA">The Tachocline aranges these (small, randomly oriented) fields to larger scales</div>
+		<p title="subTitleA"><small>The \( \alpha \Omega \) Dynamo</small></p>
+		<div class="footer">
+			<p class="credit">Parker et al. (1955)</p>
+		</div>
+	</section>
+	<section data-auto-animate>
+		<div class="multiCol">
+			<div class="col" style="vertical-align:middle">
+				<div class="slideTitle" style="text-align:left" data-id="TitleA">The Tachocline aranges these (small, randomly oriented) fields to larger scales</div>
+				<p style="text-align:left" data-id="subTitleA"><small>The \( \alpha \Omega \) Dynamo</small></p>
+				</div>
+			<div class="col" style="vertical-align:middle">
+				<img src="static/imgs/Toroidal_coord.png" alt="Field Geometry" width=400 height=300>
+			</div>
+		</div>
 		<div class="footer">
 			<p class="credit">Parker et al. (1955)</p>
 		</div>
@@ -155,14 +172,14 @@
 		Magnetic Field in Fully Convective Stars
 	</section>
 	<section data-auto-animate>
-		<p>M-dwarfs, latter than M4, are <span class="spanEmph">fully convective</span>.</p>
+		<p>M-dwarfs, later than M4, are <span class="spanEmph">fully convective</span>.</p>
 	</section>
 	<section data-auto-animate>
-		<p style="opacity:50%">M-dwarfs, latter than M4, are <span class="spanEmph">fully convective</span>.</p>
+		<p style="opacity:50%">M-dwarfs, later than M4, are <span class="spanEmph">fully convective</span>.</p>
 		<p>Therefore, they do not have a tachocline</p>
 	</section>
 	<section data-auto-animate>
-		<p style="opacity:50%">M-dwarfs, latter than M4, are <span class="spanEmph">fully convective</span>.</p>
+	<p style="opacity:50%">M-dwarfs, later than M4, are <span class="spanEmph">fully convective</span>.</p>
 		<p style="opacity:50%">Therefore, they do not have a tachocline</p>
 		<p >Recall, that they empirically show enhanced magnetic activity.</p>
 	</section>
@@ -182,6 +199,12 @@
 	</section>
 	<section data-auto-animate>
 		<img data-id="rotfigure" src="static/imgs/SeperateRotAct.png" alt="Simple Rotation Activity Relation" width=857 height=600>	
+	</section>
+	<section data-auto-animate>
+		<img data-id="rotfigure" src="static/imgs/SeperateRotAct_SaturatedLabeled.png" alt="Simple Rotation Activity Relation" width=857 height=600>	
+	</section>
+	<section data-auto-animate>
+		<img data-id="rotfigure" src="static/imgs/SeperateRotAct_SaturatedLabeled_UnsaturatedLabeled.png" alt="Simple Rotation Activity Relation" width=857 height=600>	
 	</section>
 	<section data-transition="fade">
 		<img data-id="rotfigure" src="static/imgs/SimpleRotAct_mass_sep.png" alt="Simple Rotation Activity Relation" width=857 height=600>	
@@ -215,7 +238,7 @@
 	<section data-auto-animate>
 		<div class="multiCol">
 			<div class="col">
-				<p class="listParLeft"> Rossby Number is formally the ratio of coriolis to interial forces </p>
+				<p class="listParLeft"> Rossby Number is formally the ratio of interial forces to coriolis forces</p>
 				<p class="fragment listParLeft" data-fragment-index="2"> An observationally useful proxy for this is:<br> <div class=" fragment blockEmph" data-fragment-index="2">The ratio of the rotational period (coriolis) to the convective overturn timescale (inertial)</div></p>
 			</div>
 			<div class="col">
@@ -261,7 +284,7 @@
 		<div class="multiCol">
 			<div class="col" style="vertical-align:middle;">
 				<p class="listParLeft">Rossby Number includes rotational period <em>and</em> convective over turn time</p>
-				<p class="fragment listParLeft" data-fragment-index="1">Convective Overturn callibrated to remove x offset between stars of different mass / color
+				<p class="fragment listParLeft" data-fragment-index="1">Convective Overturn calibrated to remove x offset between stars of different mass / color
 			</div>
 			<div class="col" style="vertical-align:middle;">
 				<div class="fragment" data-fragment-index="1"> \( \log(\tau_{c}) = 0.64 + 0.25(V-K) \)</div>
@@ -278,7 +301,7 @@
 		<span class="spanEmph">Quantifying</span> the Activity
 	</section>
 	<section>
-		Magnetic activity leads to non-themal <span class="spanEmph">heating of the upper chronosphere</span>
+		Magnetic activity leads to non-themal <span class="spanEmph">heating of the upper chromosphere</span>
 	</section>
 	<section data-auto-animate>
 		<div class="slideTitle">Ca II H&K Emission</div> 
@@ -309,8 +332,8 @@
 	</section>
 	<section data-auto-animate>
 		<div data-id="title" class="slideTitle">S-Index!</div>
-		<p class="listParLeft" style="text-align:left">Ratio of Ca II H&K Emission to contiumn emission</p>
-		<p class="fragment listParLeft" data-fragment-index="1" style="text-align:left">Developed At Mount Wilson in the 1960s for classifiction of the suns magnetic activity</p>
+		<p class="listParLeft" style="text-align:left">Ratio of Ca II H&K Emission to continuum emission</p>
+		<p class="fragment listParLeft" data-fragment-index="1" style="text-align:left">Developed At Mount Wilson in the 1960s for classifiction of the Sun's magnetic activity</p>
 	</section>
 	<section>
 		<img src="static/imgs/SIndexBandpass.png" alt="S Index Bandpass" width=900 height=400>
@@ -319,8 +342,8 @@
 		<div class="slideTitle"> S-Index </div>
 		<div class="multiCol">
 			<div class='col'>
-				<p class="listParLeft">Ratio of Ca II H&K Emission to contiumn emission</p>
-				<p class="listParLeft" data-fragment-index="1">Developed At Mount Wilson in the 1960s for classifiction of the suns magnetic activity</p>
+				<p class="listParLeft">Ratio of Ca II H&K Emission to continuum emission</p>
+				<p class="listParLeft" data-fragment-index="1">Developed At Mount Wilson in the 1960s for classifiction of the Sun's magnetic activity</p>
 			</div>
 			<div class='col' style="vertical-align:middle">
 				<div class="fragment" data-fragment-index="1">
@@ -507,14 +530,15 @@
 		<div class="multiCol">
 			<div class="col">
 				<p class="listParLeft">Doubled the Number of M-dwarfs with measured \(R'_{HK}\) and \(P_{rot}\) values.</p>
-				<p class="fragment listParLeft">Strengthening constraints when infering \(P_{rot}\)</p>
+				<p class="fragment listParLeft">Strengthening constraints when infering \(P_{rot}\).</p>
+				<p class="fragment listParLeft">Collected Ca II H&K observations simultatious with \( H\alpha \) & \( H\beta \) observations.</p>
 			</div>
 		</div>
 	</section>
 	<section>
 		<div class="slideTitle">With Thanks To.</div>
 		<p class="listParLeft" style="text-align:left">Dr. Elisabeth Newton</p>
-		<p class="listParLeft" style="text-align:left">Dr. Brian Charboyer</p>
+		<p class="listParLeft" style="text-align:left">Dr. Brian Chaboyer</p>
 		<p class="listParLeft" style="text-align:left">Dr. John Thorstenton</p>
 	</section>
 </section>
